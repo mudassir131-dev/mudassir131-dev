@@ -1,9 +1,9 @@
 #
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg?v=2">
-  <img alt="Developer Profile Banner" src="dark.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg?v=3">
+  <img alt="Developer Profile Banner" src="dark.svg?v=3" width="100%">
 </picture>
 
 
