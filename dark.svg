@@ -18,18 +18,18 @@
       }
       .profile-name {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        font-size: 38px;
+        font-size: 34px;
         font-weight: 800;
       }
       .profile-label {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
         fill: #64748b;
       }
       .profile-val {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 600;
         fill: #f8fafc;
       }
@@ -41,7 +41,7 @@
       }
       .pill-text {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 600;
         fill: #e2e8f0;
       }
@@ -124,25 +124,30 @@
       </rect>
     </clipPath>
     <clipPath id="type-clip-left-2">
-      <rect x="60" y="460" width="0" height="24">
-        <animate attributeName="width" from="0" to="240" dur="0.8s" begin="2.6s" fill="freeze" />
+      <rect x="60" y="470" width="0" height="24">
+        <animate attributeName="width" from="0" to="240" dur="0.8s" begin="3.0s" fill="freeze" />
       </rect>
     </clipPath>
 
     <!-- Typing Clips for Right Panel Roles -->
     <clipPath id="role-clip-1">
       <rect x="530" y="190" width="0" height="30">
-        <animate attributeName="width" values="0;220;220;0" dur="4s" begin="0s" repeatCount="indefinite" />
+        <animate attributeName="width" values="0;200;200;0" dur="4s" begin="0s" repeatCount="indefinite" />
       </rect>
     </clipPath>
     <clipPath id="role-clip-2">
       <rect x="530" y="190" width="0" height="30">
-        <animate attributeName="width" values="0;250;250;0" dur="4s" begin="4s" repeatCount="indefinite" />
+        <animate attributeName="width" values="0;220;220;0" dur="4s" begin="4s" repeatCount="indefinite" />
       </rect>
     </clipPath>
     <clipPath id="role-clip-3">
       <rect x="530" y="190" width="0" height="30">
-        <animate attributeName="width" values="0;240;240;0" dur="4s" begin="8s" repeatCount="indefinite" />
+        <animate attributeName="width" values="0;270;270;0" dur="4s" begin="8s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="role-clip-4">
+      <rect x="530" y="190" width="0" height="30">
+        <animate attributeName="width" values="0;240;240;0" dur="4s" begin="12s" repeatCount="indefinite" />
       </rect>
     </clipPath>
 
@@ -249,28 +254,30 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.3s" fill="freeze" />
     </text>
 
-    <!-- ASCII Portrait Reveal -->
+    <!-- Custom ASCII Portrait Reveal (Mudassir Ahmad Paray) -->
     <g fill="url(#ascii-gradient)">
-      <text x="125" y="180" font-family="'Fira Code', 'JetBrains Mono', monospace" font-size="13" xml:space="preserve">
-        <tspan x="125" dy="18" opacity="0">         .▄▄████████▄▄.        <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.5s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">       .▄██████████████▄.      <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.6s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">      .████▀▀██████▀▀████.     <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.7s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">      ████  ████████  ████     <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.8s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">      ████  ▀▀▀▀▀▀▀▀  ████     <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.9s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">      ████     ▄▄     ████     <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.0s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">      ▀████   ▀▀▀▀   ████▀     <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.1s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">       ▀████▄  ▀▀  ▄████▀      <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.2s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">         ▀████████████▀        <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.3s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">           ██████████          <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.4s" fill="freeze" /></tspan>
-        <tspan x="125" dy="18" opacity="0">          ████████████         <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.5s" fill="freeze" /></tspan>
+      <text x="141" y="174" font-family="'Fira Code', 'JetBrains Mono', monospace" font-size="13" xml:space="preserve">
+        <tspan x="141" dy="18" opacity="0">        ▄▄█████████▄▄       <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.5s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">      ▄███████████████▄     <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.6s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">     ███████████████████    <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.7s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">    ████▀▀   ▀▀██████████   <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.8s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">    ███  ▄███▄   ▄███▄  ███ <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="1.9s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">    ███  █████ ▄ █████  ███ <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.0s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">    ███  ▀███▀ ░ ▀███▀  ███ <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.1s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">    ▀███▄   ▄▄▀▀▀▄▄   ▄███▀ <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.2s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">      ▀████▄  ▀▀▀  ▄████▀   <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.3s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">        ▀█████████████▀     <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.4s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">          ██ █▀▀█ ██        <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.5s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">         ███ █  █ ███       <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.6s" fill="freeze" /></tspan>
+        <tspan x="141" dy="18" opacity="0">        ▄█████  █████▄      <animate attributeName="opacity" from="0" to="0.85" dur="0.1s" begin="2.7s" fill="freeze" /></tspan>
       </text>
     </g>
 
     <!-- Typing Bottom Status -->
-    <text x="60" y="476" class="term-text" clip-path="url(#type-clip-left-2)">> status: <tspan class="term-accent">online</tspan></text>
+    <text x="60" y="486" class="term-text" clip-path="url(#type-clip-left-2)">> status: <tspan class="term-accent">online</tspan></text>
     <!-- Blinking Cursor -->
-    <rect x="194" y="464" width="8" height="15" fill="#34d399" opacity="0">
-      <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite" begin="3.4s" />
+    <rect x="194" y="474" width="8" height="15" fill="#34d399" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite" begin="3.8s" />
     </rect>
   </g>
 
@@ -309,7 +316,7 @@
 
       <!-- Name -->
       <text x="530" y="166" class="profile-name" fill="url(#title-gradient)" opacity="0">
-        Alex Rivera
+        Mudassir Ahmad Paray
         <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.4s" fill="freeze" />
       </text>
 
@@ -317,32 +324,42 @@
       <!-- Role 1 -->
       <g clip-path="url(#role-clip-1)">
         <text x="530" y="202" font-family="monospace" font-size="15" fill="#22d3ee" font-weight="500">
-          // Full-Stack Developer
+          // Android Developer
         </text>
         <rect x="530" y="188" width="8" height="18" fill="#22d3ee">
-          <animate attributeName="x" values="530;720;720;530" dur="4s" repeatCount="indefinite" />
+          <animate attributeName="x" values="530;700;700;530" dur="4s" repeatCount="indefinite" />
         </rect>
-        <animate attributeName="opacity" values="1;1;0;0" dur="12s" begin="0s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;1;0;0;0" keyTimes="0;0.25;0.26;0.99;1" dur="16s" begin="0s" repeatCount="indefinite" />
       </g>
       <!-- Role 2 -->
       <g clip-path="url(#role-clip-2)" opacity="0">
         <text x="530" y="202" font-family="monospace" font-size="15" fill="#a78bfa" font-weight="500">
-          // Cloud Systems Architect
+          // Full Stack Developer
         </text>
         <rect x="530" y="188" width="8" height="18" fill="#a78bfa">
-          <animate attributeName="x" values="530;750;750;530" dur="4s" begin="4s" repeatCount="indefinite" />
+          <animate attributeName="x" values="530;720;720;530" dur="4s" begin="4s" repeatCount="indefinite" />
         </rect>
-        <animate attributeName="opacity" values="0;0;1;1;0;0" dur="12s" begin="0s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.26;0.50;0.51;1" dur="16s" begin="0s" repeatCount="indefinite" />
       </g>
       <!-- Role 3 -->
       <g clip-path="url(#role-clip-3)" opacity="0">
         <text x="530" y="202" font-family="monospace" font-size="15" fill="#34d399" font-weight="500">
-          // Open Source Contributor
+          // AI Application Developer
         </text>
         <rect x="530" y="188" width="8" height="18" fill="#34d399">
-          <animate attributeName="x" values="530;740;740;530" dur="4s" begin="8s" repeatCount="indefinite" />
+          <animate attributeName="x" values="530;770;770;530" dur="4s" begin="8s" repeatCount="indefinite" />
         </rect>
-        <animate attributeName="opacity" values="0;0;0;0;1;1" dur="12s" begin="0s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;0.50;0.51;0.75;0.76;1" dur="16s" begin="0s" repeatCount="indefinite" />
+      </g>
+      <!-- Role 4 -->
+      <g clip-path="url(#role-clip-4)" opacity="0">
+        <text x="530" y="202" font-family="monospace" font-size="15" fill="#ec4899" font-weight="500">
+          // Open Source Enthusiast
+        </text>
+        <rect x="530" y="188" width="8" height="18" fill="#ec4899">
+          <animate attributeName="x" values="530;740;740;530" dur="4s" begin="12s" repeatCount="indefinite" />
+        </rect>
+        <animate attributeName="opacity" values="0;0;0;0;1;1" keyTimes="0;0.75;0.76;0.99;1" dur="16s" begin="0s" repeatCount="indefinite" />
       </g>
     </g>
 
@@ -352,11 +369,10 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="0.8s" fill="freeze" />
       <g transform="translate(530, 230)">
-        <!-- Location Icon (Map pin) -->
         <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#3b82f6" transform="scale(0.8)"/>
       </g>
       <text x="556" y="244" class="profile-label">Location</text>
-      <text x="650" y="244" class="profile-val">San Francisco, CA</text>
+      <text x="650" y="244" class="profile-val">Srinagar, Jammu &amp; Kashmir, India</text>
     </g>
 
     <!-- Row 2: Education -->
@@ -364,11 +380,10 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="0.95s" fill="freeze" />
       <g transform="translate(530, 260)">
-        <!-- Education Icon (Grad cap) -->
         <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" fill="#8b5cf6" transform="scale(0.8)"/>
       </g>
       <text x="556" y="274" class="profile-label">Education</text>
-      <text x="650" y="274" class="profile-val">Stanford University</text>
+      <text x="650" y="274" class="profile-val">Diploma in IT, Kashmir Govt Polytechnic</text>
     </g>
 
     <!-- Row 3: Focus -->
@@ -376,11 +391,10 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="1.1s" fill="freeze" />
       <g transform="translate(530, 290)">
-        <!-- Focus Icon (Sparkles) -->
         <path d="M9 4L11.5 9.5 17 12l-5.5 2.5L9 20 6.5 14.5 1 12l5.5-2.5L9 4zm10-3l1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" fill="#ec4899" transform="scale(0.8)"/>
       </g>
       <text x="556" y="304" class="profile-label">Focus</text>
-      <text x="650" y="304" class="profile-val">AI Systems &amp; Web3 Architecture</text>
+      <text x="650" y="304" class="profile-val">AI Apps, Android &amp; Web Experiences</text>
     </g>
 
     <!-- Row 4: Portfolio -->
@@ -388,11 +402,10 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.25s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="1.25s" fill="freeze" />
       <g transform="translate(530, 320)">
-        <!-- Portfolio Icon (Globe) -->
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z" fill="#10b981" transform="scale(0.8)"/>
       </g>
       <text x="556" y="334" class="profile-label">Portfolio</text>
-      <text x="650" y="334" class="profile-val" fill="#38bdf8">alexrivera.dev</text>
+      <text x="650" y="334" class="profile-val" fill="#38bdf8">mlabs-five.vercel.app</text>
     </g>
 
     <!-- Row 5: Contact -->
@@ -400,94 +413,138 @@
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.4s" fill="freeze" />
       <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="1.4s" fill="freeze" />
       <g transform="translate(530, 350)">
-        <!-- Email Icon (Mail) -->
         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 4 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#eab308" transform="scale(0.8)"/>
       </g>
       <text x="556" y="364" class="profile-label">Email</text>
-      <text x="650" y="364" class="profile-val">hello@alexrivera.dev</text>
+      <text x="650" y="364" class="profile-val">touseefpara7@gmail.com</text>
     </g>
 
     <!-- Skills Header -->
-    <text x="530" y="415" font-family="monospace" font-size="12" fill="#a78bfa" opacity="0">
-      // Core Stack
+    <text x="530" y="405" font-family="monospace" font-size="12" fill="#a78bfa" opacity="0">
+      // Skills &amp; Technologies
       <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.6s" fill="freeze" />
     </text>
 
-    <!-- Skills Pills (Glowing pills, pop-in) -->
-    <!-- Pill 1: TypeScript -->
+    <!-- Skills Pills (Two rows layout, staggered pop-in) -->
+    <!-- Row 1 -->
+    <!-- Pill 1: Kotlin -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.7s" fill="freeze" />
+      <rect x="530" y="416" width="75" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="567.5" y="433" class="pill-text" text-anchor="middle">Kotlin</text>
+    </g>
+    <!-- Pill 2: Jetpack Compose -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.75s" fill="freeze" />
-      <rect x="530" y="426" width="95" height="28" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="1.2" />
-      <text x="577.5" y="444" class="pill-text" text-anchor="middle">TypeScript</text>
+      <rect x="615" y="416" width="130" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="680" y="433" class="pill-text" text-anchor="middle">Jetpack Compose</text>
     </g>
-    <!-- Pill 2: Next.js -->
+    <!-- Pill 3: Android Studio -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.8s" fill="freeze" />
+      <rect x="755" y="416" width="120" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#ec4899" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="815" y="433" class="pill-text" text-anchor="middle">Android Studio</text>
+    </g>
+    <!-- Pill 4: React -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.85s" fill="freeze" />
-      <rect x="635" y="426" width="80" height="28" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1.2" />
-      <text x="675" y="444" class="pill-text" text-anchor="middle">Next.js</text>
+      <rect x="885" y="416" width="65" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#10b981" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="917.5" y="433" class="pill-text" text-anchor="middle">React</text>
     </g>
-    <!-- Pill 3: Go -->
+    <!-- Pill 5: Next.js -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.9s" fill="freeze" />
+      <rect x="960" y="416" width="75" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="997.5" y="433" class="pill-text" text-anchor="middle">Next.js</text>
+    </g>
+    <!-- Pill 6: Tailwind CSS -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.95s" fill="freeze" />
-      <rect x="725" y="426" width="55" height="28" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#ec4899" stroke-opacity="0.3" stroke-width="1.2" />
-      <text x="752.5" y="444" class="pill-text" text-anchor="middle">Go</text>
+      <rect x="1045" y="416" width="80" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="1085" y="433" class="pill-text" text-anchor="middle">Tailwind</text>
     </g>
-    <!-- Pill 4: Rust -->
+
+    <!-- Row 2 -->
+    <!-- Pill 7: TypeScript -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.05s" fill="freeze" />
-      <rect x="790" y="426" width="65" height="28" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#10b981" stroke-opacity="0.3" stroke-width="1.2" />
-      <text x="822.5" y="444" class="pill-text" text-anchor="middle">Rust</text>
+      <rect x="530" y="450" width="95" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="577.5" y="467" class="pill-text" text-anchor="middle">TypeScript</text>
     </g>
-    <!-- Pill 5: Docker -->
+    <!-- Pill 8: Node.js -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.1s" fill="freeze" />
+      <rect x="635" y="450" width="75" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#8b5cf6" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="672.5" y="467" class="pill-text" text-anchor="middle">Node.js</text>
+    </g>
+    <!-- Pill 9: Firebase -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.15s" fill="freeze" />
-      <rect x="865" y="426" width="80" height="28" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1.2" />
-      <text x="905" y="444" class="pill-text" text-anchor="middle">Docker</text>
+      <rect x="720" y="450" width="80" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#ec4899" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="760" y="467" class="pill-text" text-anchor="middle">Firebase</text>
     </g>
-    <!-- Pill 6: Kubernetes -->
+    <!-- Pill 10: Supabase -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.2s" fill="freeze" />
+      <rect x="810" y="450" width="85" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#10b981" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="852.5" y="467" class="pill-text" text-anchor="middle">Supabase</text>
+    </g>
+    <!-- Pill 11: Python -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.25s" fill="freeze" />
-      <rect x="955" y="426" width="105" height="28" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1.2" />
-      <text x="1007.5" y="444" class="pill-text" text-anchor="middle">Kubernetes</text>
+      <rect x="905" y="450" width="70" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="940" y="467" class="pill-text" text-anchor="middle">Python</text>
+    </g>
+    <!-- Pill 12: Git -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.3s" fill="freeze" />
+      <rect x="985" y="450" width="50" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="1010" y="467" class="pill-text" text-anchor="middle">Git</text>
+    </g>
+    <!-- Pill 13: Docker -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.35s" fill="freeze" />
+      <rect x="1045" y="450" width="70" height="26" rx="8" fill="#1e293b" fill-opacity="0.5" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="1080" y="467" class="pill-text" text-anchor="middle">Docker</text>
     </g>
 
     <!-- Socials Section -->
     <!-- GitHub Button -->
     <g opacity="0" transform="translate(0, 10)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.4s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.4s" fill="freeze" />
-      <circle cx="548" cy="503" r="18" class="social-circle" />
-      <g transform="translate(538, 493) scale(0.833)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.5s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.5s" fill="freeze" />
+      <circle cx="548" cy="514" r="18" class="social-circle" />
+      <g transform="translate(538, 504) scale(0.833)">
         <path class="social-icon" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482C19.138 20.193 22 16.44 22 12.017 22 6.484 17.522 2 12 2z"/>
       </g>
     </g>
 
     <!-- LinkedIn Button -->
     <g opacity="0" transform="translate(0, 10)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.5s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.5s" fill="freeze" />
-      <circle cx="598" cy="503" r="18" class="social-circle" />
-      <g transform="translate(588, 493) scale(0.833)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.6s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.6s" fill="freeze" />
+      <circle cx="598" cy="514" r="18" class="social-circle" />
+      <g transform="translate(588, 504) scale(0.833)">
         <path class="social-icon" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
       </g>
     </g>
 
-    <!-- Twitter Button -->
+    <!-- Instagram Button -->
     <g opacity="0" transform="translate(0, 10)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.6s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.6s" fill="freeze" />
-      <circle cx="648" cy="503" r="18" class="social-circle" />
-      <g transform="translate(638, 493) scale(0.833)">
-        <path class="social-icon" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.7s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.7s" fill="freeze" />
+      <circle cx="648" cy="514" r="18" class="social-circle" />
+      <g transform="translate(638, 504) scale(0.833)">
+        <path class="social-icon" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051C.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
       </g>
     </g>
 
     <!-- Portfolio/Globe Button -->
     <g opacity="0" transform="translate(0, 10)">
-      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.7s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.7s" fill="freeze" />
-      <circle cx="698" cy="503" r="18" class="social-circle" />
-      <g transform="translate(688, 493) scale(0.833)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.8s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.8s" fill="freeze" />
+      <circle cx="698" cy="514" r="18" class="social-circle" />
+      <g transform="translate(688, 504) scale(0.833)">
         <path class="social-icon" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z"/>
       </g>
     </g>
