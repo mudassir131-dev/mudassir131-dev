@@ -1,12 +1,12 @@
 #
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img alt="Developer Profile Banner" src="dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg?v=2">
+  <img alt="Developer Profile Banner" src="dark.svg?v=2" width="100%">
 </picture>
 
-
+## Hi there 👋
 
 <!--
 **mudassir131-dev/mudassir131-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
