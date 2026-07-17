@@ -6,7 +6,7 @@
   <img alt="Developer Profile Banner" src="dark.svg" width="100%">
 </picture>
 
-## Hi there 👋
+
 
 <!--
 **mudassir131-dev/mudassir131-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
