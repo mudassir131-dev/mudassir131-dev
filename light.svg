@@ -1,0 +1,495 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%" style="background-color: #ffffff;">
+  <defs>
+    <!-- Fonts -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap');
+      
+      .term-text {
+        font-family: 'Fira Code', 'JetBrains Mono', Consolas, Monaco, monospace;
+        font-size: 13px;
+        fill: #475569;
+      }
+      .term-accent {
+        fill: #059669;
+        font-weight: 500;
+      }
+      .term-cmd {
+        fill: #0284c7;
+      }
+      .profile-name {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 38px;
+        font-weight: 800;
+      }
+      .profile-label {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        fill: #64748b;
+      }
+      .profile-val {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        fill: #0f172a;
+      }
+      .profile-sub {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        fill: #64748b;
+      }
+      .pill-text {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        fill: #334155;
+      }
+      .social-circle {
+        fill: #f1f5f9;
+        fill-opacity: 0.8;
+        stroke: #cbd5e1;
+        stroke-width: 1;
+        transition: all 0.3s ease;
+      }
+      .social-icon {
+        fill: #64748b;
+        transition: all 0.3s ease;
+      }
+    </style>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e2e8f0" stroke-width="0.7" stroke-opacity="0.4" />
+    </pattern>
+
+    <!-- Background Glows -->
+    <radialGradient id="glow-blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-emerald" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Shimmer Gradients -->
+    <linearGradient id="border-glow-left" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.6" />
+      <stop offset="30%" stop-color="#06b6d4" stop-opacity="0.2" />
+      <stop offset="70%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.6" />
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="10s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="border-glow-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.6" />
+      <stop offset="30%" stop-color="#7c3aed" stop-opacity="0.2" />
+      <stop offset="70%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.6" />
+      <animateTransform attributeName="gradientTransform" type="rotate" from="360 0.5 0.5" to="0 0.5 0.5" dur="14s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Noise Filter -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" result="noise" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.02 0" />
+      <feComposite operator="in" in2="SourceGraphic" />
+    </filter>
+
+    <!-- Glass Reflection Sweep -->
+    <linearGradient id="reflection-sweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Clip Paths -->
+    <clipPath id="card-clip-left">
+      <rect x="40" y="40" width="420" height="530" rx="16" />
+    </clipPath>
+    <clipPath id="card-clip-right">
+      <rect x="490" y="40" width="650" height="530" rx="16" />
+    </clipPath>
+
+    <!-- Text Clip for Typing Effects -->
+    <clipPath id="type-clip-left-1">
+      <rect x="60" y="90" width="0" height="24">
+        <animate attributeName="width" from="0" to="240" dur="0.8s" begin="0.3s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="type-clip-left-2">
+      <rect x="60" y="460" width="0" height="24">
+        <animate attributeName="width" from="0" to="240" dur="0.8s" begin="2.6s" fill="freeze" />
+      </rect>
+    </clipPath>
+
+    <!-- Typing Clips for Right Panel Roles -->
+    <clipPath id="role-clip-1">
+      <rect x="530" y="190" width="0" height="30">
+        <animate attributeName="width" values="0;220;220;0" dur="4s" begin="0s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="role-clip-2">
+      <rect x="530" y="190" width="0" height="30">
+        <animate attributeName="width" values="0;250;250;0" dur="4s" begin="4s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="role-clip-3">
+      <rect x="530" y="190" width="0" height="30">
+        <animate attributeName="width" values="0;240;240;0" dur="4s" begin="8s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <!-- Title Gradient -->
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#db2777" />
+    </linearGradient>
+    <linearGradient id="ascii-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="50%" stop-color="#6d28d9" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1180" height="610" rx="24" fill="#ffffff" />
+  <rect width="1180" height="610" rx="24" fill="url(#grid)" />
+
+  <!-- Noise Overlay -->
+  <rect width="1180" height="610" rx="24" filter="url(#noise)" opacity="0.6" pointer-events="none" />
+
+  <!-- Animated Glowing Radial Orbs -->
+  <circle cx="200" cy="200" r="350" fill="url(#glow-blue)">
+    <animate attributeName="cx" values="200;260;170;200" dur="22s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="200;140;250;200" dur="22s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="950" cy="450" r="380" fill="url(#glow-cyan)">
+    <animate attributeName="cx" values="950;890;980;950" dur="28s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="450;510;380;450" dur="28s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="80" r="280" fill="url(#glow-emerald)">
+    <animate attributeName="cx" values="600;540;660;600" dur="19s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="80;110;60;80" dur="19s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Background Particles -->
+  <g opacity="0.3">
+    <circle cx="150" cy="450" r="2.5" fill="#3b82f6">
+      <animate attributeName="cy" values="450;420;450" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="820" cy="130" r="3" fill="#7c3aed">
+      <animate attributeName="cy" values="130;160;130" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1060" cy="480" r="2" fill="#10b981">
+      <animate attributeName="cy" values="480;450;480" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="480" cy="300" r="1.5" fill="#0f172a">
+      <animate attributeName="cy" values="300;280;300" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="6s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- ================= LEFT PANEL (CYBER TERMINAL) ================= -->
+  <g>
+    <!-- Slow vertical float for left card -->
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -5; 0 0" dur="8s" repeatCount="indefinite" />
+    
+    <!-- Glass Panel Background -->
+    <rect x="40" y="40" width="420" height="530" rx="16" fill="#f8fafc" fill-opacity="0.85" />
+    
+    <!-- Shimmering Border -->
+    <rect x="40" y="40" width="420" height="530" rx="16" fill="none" stroke="url(#border-glow-left)" stroke-width="1.5" />
+    
+    <!-- Diagonal Glass Shine Sweep -->
+    <g clip-path="url(#card-clip-left)">
+      <rect x="-400" y="40" width="420" height="530" fill="url(#reflection-sweep)" transform="skewX(-30)">
+        <animateTransform attributeName="transform" type="translate" values="-600,0; 800,0" dur="9s" repeatCount="indefinite" additive="sum" />
+      </rect>
+    </g>
+
+    <!-- Scanline Effect Overlay -->
+    <line x1="40" y1="40" x2="460" y2="40" stroke="#3b82f6" stroke-width="1.5" opacity="0.1">
+      <animate attributeName="y1" values="40;570;40" dur="6s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="40;570;40" dur="6s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Terminal Header (macOS style dots) -->
+    <circle cx="65" cy="62" r="5" fill="#ef4444" />
+    <circle cx="81" cy="62" r="5" fill="#f59e0b" />
+    <circle cx="97" cy="62" r="5" fill="#10b981" />
+    <text x="120" y="66" font-family="monospace" font-size="11" fill="#94a3b8" letter-spacing="1">terminal@cyber:~</text>
+    <line x1="40" y1="82" x2="460" y2="82" stroke="#e2e8f0" stroke-width="1" />
+
+    <!-- Terminal Output -->
+    <!-- Typing Line 1 -->
+    <text x="60" y="106" class="term-text" clip-path="url(#type-clip-left-1)">$ <tspan class="term-cmd">load_avatar_core.sh</tspan></text>
+    <rect x="60" y="94" width="8" height="15" fill="#0284c7" opacity="0">
+      <animate attributeName="x" from="75" to="225" dur="0.8s" begin="0.3s" fill="freeze" />
+      <animate attributeName="opacity" values="1;1;0" dur="0.8s" begin="0.3s" fill="freeze" />
+    </rect>
+
+    <!-- Log Outputs -->
+    <text x="60" y="128" class="term-text" opacity="0">
+      [SYSTEM] Booting cyber-frame...
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.1s" fill="freeze" />
+    </text>
+    <text x="60" y="146" class="term-text" opacity="0">
+      [SYSTEM] Core matrix loaded.
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.3s" fill="freeze" />
+    </text>
+
+    <!-- ASCII Portrait Reveal -->
+    <g fill="url(#ascii-gradient)">
+      <text x="125" y="180" font-family="'Fira Code', 'JetBrains Mono', monospace" font-size="13" xml:space="preserve">
+        <tspan x="125" dy="18" opacity="0">         .▄▄████████▄▄.        <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="1.5s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">       .▄██████████████▄.      <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="1.6s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">      .████▀▀██████▀▀████.     <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="1.7s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">      ████  ████████  ████     <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="1.8s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">      ████  ▀▀▀▀▀▀▀▀  ████     <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="1.9s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">      ████     ▄▄     ████     <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="2.0s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">      ▀████   ▀▀▀▀   ████▀     <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="2.1s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">       ▀████▄  ▀▀  ▄████▀      <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="2.2s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">         ▀████████████▀        <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="2.3s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">           ██████████          <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="2.4s" fill="freeze" /></tspan>
+        <tspan x="125" dy="18" opacity="0">          ████████████         <animate attributeName="opacity" from="0" to="0.9" dur="0.1s" begin="2.5s" fill="freeze" /></tspan>
+      </text>
+    </g>
+
+    <!-- Typing Bottom Status -->
+    <text x="60" y="476" class="term-text" clip-path="url(#type-clip-left-2)">> status: <tspan class="term-accent">online</tspan></text>
+    <!-- Blinking Cursor -->
+    <rect x="194" y="464" width="8" height="15" fill="#059669" opacity="0">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite" begin="3.4s" />
+    </rect>
+  </g>
+
+  <!-- ================= RIGHT PANEL (PROFESSIONAL PROFILE) ================= -->
+  <g>
+    <!-- Slow vertical float (opposite phase to left card) -->
+    <animateTransform attributeName="transform" type="translate" values="0 -5; 0 0; 0 -5" dur="8s" repeatCount="indefinite" />
+
+    <!-- Glass Panel Background -->
+    <rect x="490" y="40" width="650" height="530" rx="16" fill="#f8fafc" fill-opacity="0.85" />
+    
+    <!-- Shimmering Border -->
+    <rect x="490" y="40" width="650" height="530" rx="16" fill="none" stroke="url(#border-glow-right)" stroke-width="1.5" />
+    
+    <!-- Diagonal Glass Shine Sweep -->
+    <g clip-path="url(#card-clip-right)">
+      <rect x="-400" y="40" width="650" height="530" fill="url(#reflection-sweep)" transform="skewX(-30)">
+        <animateTransform attributeName="transform" type="translate" values="-800,0; 1000,0" dur="11s" repeatCount="indefinite" additive="sum" />
+      </rect>
+    </g>
+
+    <!-- Panel Header -->
+    <circle cx="515" cy="62" r="5" fill="#ef4444" />
+    <circle cx="531" cy="62" r="5" fill="#f59e0b" />
+    <circle cx="547" cy="62" r="5" fill="#10b981" />
+    <text x="570" y="66" font-family="monospace" font-size="11" fill="#cbd5e1" letter-spacing="1">profile@developer:~</text>
+    <line x1="490" y1="82" x2="1140" y2="82" stroke="#e2e8f0" stroke-width="1" />
+
+    <!-- Profile Headings -->
+    <g>
+      <!-- Hello -->
+      <text x="530" y="122" class="profile-sub" opacity="0">
+        Hello, I'm
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.2s" fill="freeze" />
+      </text>
+
+      <!-- Name -->
+      <text x="530" y="166" class="profile-name" fill="url(#title-gradient)" opacity="0">
+        Alex Rivera
+        <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.4s" fill="freeze" />
+      </text>
+
+      <!-- Roles (Animated Cycling Typewriter) -->
+      <!-- Role 1 -->
+      <g clip-path="url(#role-clip-1)">
+        <text x="530" y="202" font-family="monospace" font-size="15" fill="#2563eb" font-weight="500">
+          // Full-Stack Developer
+        </text>
+        <rect x="530" y="188" width="8" height="18" fill="#2563eb">
+          <animate attributeName="x" values="530;720;720;530" dur="4s" repeatCount="indefinite" />
+        </rect>
+        <animate attributeName="opacity" values="1;1;0;0" dur="12s" begin="0s" repeatCount="indefinite" />
+      </g>
+      <!-- Role 2 -->
+      <g clip-path="url(#role-clip-2)" opacity="0">
+        <text x="530" y="202" font-family="monospace" font-size="15" fill="#7c3aed" font-weight="500">
+          // Cloud Systems Architect
+        </text>
+        <rect x="530" y="188" width="8" height="18" fill="#7c3aed">
+          <animate attributeName="x" values="530;750;750;530" dur="4s" begin="4s" repeatCount="indefinite" />
+        </rect>
+        <animate attributeName="opacity" values="0;0;1;1;0;0" dur="12s" begin="0s" repeatCount="indefinite" />
+      </g>
+      <!-- Role 3 -->
+      <g clip-path="url(#role-clip-3)" opacity="0">
+        <text x="530" y="202" font-family="monospace" font-size="15" fill="#047857" font-weight="500">
+          // Open Source Contributor
+        </text>
+        <rect x="530" y="188" width="8" height="18" fill="#047857">
+          <animate attributeName="x" values="530;740;740;530" dur="4s" begin="8s" repeatCount="indefinite" />
+        </rect>
+        <animate attributeName="opacity" values="0;0;0;0;1;1" dur="12s" begin="0s" repeatCount="indefinite" />
+      </g>
+    </g>
+
+    <!-- Professional Grid Details -->
+    <!-- Row 1: Location -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="0.8s" fill="freeze" />
+      <g transform="translate(530, 230)">
+        <!-- Location Icon (Map pin) -->
+        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#2563eb" transform="scale(0.8)"/>
+      </g>
+      <text x="556" y="244" class="profile-label">Location</text>
+      <text x="650" y="244" class="profile-val">San Francisco, CA</text>
+    </g>
+
+    <!-- Row 2: Education -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.95s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="0.95s" fill="freeze" />
+      <g transform="translate(530, 260)">
+        <!-- Education Icon (Grad cap) -->
+        <path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" fill="#7c3aed" transform="scale(0.8)"/>
+      </g>
+      <text x="556" y="274" class="profile-label">Education</text>
+      <text x="650" y="274" class="profile-val">Stanford University</text>
+    </g>
+
+    <!-- Row 3: Focus -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="1.1s" fill="freeze" />
+      <g transform="translate(530, 290)">
+        <!-- Focus Icon (Sparkles) -->
+        <path d="M9 4L11.5 9.5 17 12l-5.5 2.5L9 20 6.5 14.5 1 12l5.5-2.5L9 4zm10-3l1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" fill="#db2777" transform="scale(0.8)"/>
+      </g>
+      <text x="556" y="304" class="profile-label">Focus</text>
+      <text x="650" y="304" class="profile-val">AI Systems &amp; Web3 Architecture</text>
+    </g>
+
+    <!-- Row 4: Portfolio -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.25s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="1.25s" fill="freeze" />
+      <g transform="translate(530, 320)">
+        <!-- Portfolio Icon (Globe) -->
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z" fill="#047857" transform="scale(0.8)"/>
+      </g>
+      <text x="556" y="334" class="profile-label">Portfolio</text>
+      <text x="650" y="334" class="profile-val" fill="#1d4ed8">alexrivera.dev</text>
+    </g>
+
+    <!-- Row 5: Contact -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.4s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="1.4s" fill="freeze" />
+      <g transform="translate(530, 350)">
+        <!-- Email Icon (Mail) -->
+        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 4 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#b45309" transform="scale(0.8)"/>
+      </g>
+      <text x="556" y="364" class="profile-label">Email</text>
+      <text x="650" y="364" class="profile-val">hello@alexrivera.dev</text>
+    </g>
+
+    <!-- Skills Header -->
+    <text x="530" y="415" font-family="monospace" font-size="12" fill="#6d28d9" opacity="0">
+      // Core Stack
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.6s" fill="freeze" />
+    </text>
+
+    <!-- Skills Pills (Glowing pills, pop-in) -->
+    <!-- Pill 1: TypeScript -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.75s" fill="freeze" />
+      <rect x="530" y="426" width="95" height="28" rx="8" fill="#f1f5f9" fill-opacity="0.8" stroke="#3b82f6" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="577.5" y="444" class="pill-text" text-anchor="middle">TypeScript</text>
+    </g>
+    <!-- Pill 2: Next.js -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.85s" fill="freeze" />
+      <rect x="635" y="426" width="80" height="28" rx="8" fill="#f1f5f9" fill-opacity="0.8" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="675" y="444" class="pill-text" text-anchor="middle">Next.js</text>
+    </g>
+    <!-- Pill 3: Go -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.95s" fill="freeze" />
+      <rect x="725" y="426" width="55" height="28" rx="8" fill="#f1f5f9" fill-opacity="0.8" stroke="#db2777" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="752.5" y="444" class="pill-text" text-anchor="middle">Go</text>
+    </g>
+    <!-- Pill 4: Rust -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.05s" fill="freeze" />
+      <rect x="790" y="426" width="65" height="28" rx="8" fill="#f1f5f9" fill-opacity="0.8" stroke="#10b981" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="822.5" y="444" class="pill-text" text-anchor="middle">Rust</text>
+    </g>
+    <!-- Pill 5: Docker -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.15s" fill="freeze" />
+      <rect x="865" y="426" width="80" height="28" rx="8" fill="#f1f5f9" fill-opacity="0.8" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="905" y="444" class="pill-text" text-anchor="middle">Docker</text>
+    </g>
+    <!-- Pill 6: Kubernetes -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.25s" fill="freeze" />
+      <rect x="955" y="426" width="105" height="28" rx="8" fill="#f1f5f9" fill-opacity="0.8" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1.2" />
+      <text x="1007.5" y="444" class="pill-text" text-anchor="middle">Kubernetes</text>
+    </g>
+
+    <!-- Socials Section -->
+    <!-- GitHub Button -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.4s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.4s" fill="freeze" />
+      <circle cx="548" cy="503" r="18" class="social-circle" />
+      <g transform="translate(538, 493) scale(0.833)">
+        <path class="social-icon" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482C19.138 20.193 22 16.44 22 12.017 22 6.484 17.522 2 12 2z"/>
+      </g>
+    </g>
+
+    <!-- LinkedIn Button -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.5s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.5s" fill="freeze" />
+      <circle cx="598" cy="503" r="18" class="social-circle" />
+      <g transform="translate(588, 493) scale(0.833)">
+        <path class="social-icon" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+      </g>
+    </g>
+
+    <!-- Twitter Button -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.6s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.6s" fill="freeze" />
+      <circle cx="648" cy="503" r="18" class="social-circle" />
+      <g transform="translate(638, 493) scale(0.833)">
+        <path class="social-icon" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+      </g>
+    </g>
+
+    <!-- Portfolio/Globe Button -->
+    <g opacity="0" transform="translate(0, 10)">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.7s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" from="0 10" to="0 0" dur="0.4s" begin="2.7s" fill="freeze" />
+      <circle cx="698" cy="503" r="18" class="social-circle" />
+      <g transform="translate(688, 493) scale(0.833)">
+        <path class="social-icon" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z"/>
+      </g>
+    </g>
+  </g>
+</svg>
