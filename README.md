@@ -60,6 +60,6 @@
 <p align="left">
   <a href="https://posrtfoliooooos.vercel.app"><img src="https://img.shields.io/badge/Portfolio-posrtfoliooooos-5B21B6?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://github.com/mudassir131-dev"><img src="https://img.shields.io/badge/GitHub-mudassir131--dev-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/mudasir-ahmad-paray"><img src="https://img.shields.io/badge/LinkedIn-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/mudasir-ahmad7"><img src="https://img.shields.io/badge/LinkedIn-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://www.instagram.com/mud4sssir7/"><img src="https://img.shields.io/badge/Instagram-mud4sssir7-E1306C?style=for-the-badge&logo=instagram&logoColor=white" /></a>
 </p>
