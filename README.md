@@ -19,19 +19,9 @@
 
 ---
 
-#### 技術スタック Tech Stack & Tooling
+#### 使用している言語とフレームワーク Languages / Frameworks I use
 
-##### 📱 Native & Cross-Platform Apps
-![Apps](https://skillicons.dev/icons?i=kotlin,flutter,materialui,androidstudio,firebase)
-
-##### 🌐 Web Development & 3D/Motion
-![Web](https://skillicons.dev/icons?i=html,css,js,react,tailwind,threejs,figma)
-
-##### 🤖 AI Automation & Bots
-![AI & Automation](https://skillicons.dev/icons?i=py,js,nodejs,fastapi,git)
-
-##### ☁️ Cloud, Backend & Hosting
-![Cloud & DevOps](https://skillicons.dev/icons?i=firebase,vercel,railway,netlify,github,vscode)
+![Languages / Frameworks](https://skillicons.dev/icons?i=kotlin,flutter,materialui,androidstudio,firebase,html,css,js,react,tailwind,threejs,py,nodejs,fastapi,vercel,netlify,git,github,vscode)
 
 ---
 
