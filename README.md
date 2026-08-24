@@ -1,59 +1,77 @@
-# mudassir131-dev
+#### こんにちは Hello ⚡
 
-> Memorable developer positioning.
-
-**Theme:** GitHub · **Style:** Creative · **Agent:** Full-Stack Engineer
-
-## Header
-> Editing this section in the inspector.
-Hi, I'm **mudassir131-dev**. This README is tuned for **personal brand** with a GitHub visual system.
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=mudassir131-dev&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/hero?username=mudassir131-dev&theme=github-dark" alt="mudassir131-dev hero section" />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=mudassir131-dev&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api?username=mudassir131-dev&show_icons=true&theme=catppuccin_latte&hide_border=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api?username=mudassir131-dev&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub Stats" />
   </picture>
-</p>
-## About Me
-Shapes the short profile story and positioning.
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=mudassir131-dev&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/about?username=mudassir131-dev&theme=github-dark" alt="mudassir131-dev about section" />
-  </picture>
-</p>
-## Skills
-Selected stack and skill badges will be generated from the GitHub profile and README strategy.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=mudassir131-dev&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/stack?username=mudassir131-dev&theme=github-dark" alt="mudassir131-dev stack section" />
-  </picture>
-</p>
-## GitHub Stats
-GitSkins stat widgets will use the **GitHub** theme.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=mudassir131-dev&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/stats?username=mudassir131-dev&theme=github-dark" alt="mudassir131-dev stats section" />
-  </picture>
-</p>
-## Projects
-Highlights repositories as proof of work.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=mudassir131-dev&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/projects?username=mudassir131-dev&theme=github-dark" alt="mudassir131-dev projects section" />
-  </picture>
-</p>
-## Heatmap
-Animated year-long contribution calendar.
-## Connect
-Contact and social links will appear here.
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=mudassir131-dev&theme=github-dark&mode=light" />
-    <img src="https://www.gitskins.com/api/section/social?username=mudassir131-dev&theme=github-dark" alt="mudassir131-dev social section" />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117"
+      media="(prefers-color-scheme: dark)"
+    />
+    <source
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=catppuccin_latte&hide_border=true"
+      media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+    />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" />
   </picture>
 </p>
 
-<!-- Sections: Header, About Me, Skills, GitHub Stats, Projects, Heatmap, Connect -->
+> [!TIP]  
+> Hi, I'm **Mudasir Ahmad Paray** — an Android & Full-Stack Engineer passionate about building modern, high-performance mobile apps, interactive web experiences, and AI automation systems. For collaboration or freelance inquiries, contact me at [touseefparay7@gmail.com](mailto:touseefparay7@gmail.com) or explore my portfolio at [mlabs-five.vercel.app](https://mlabs-five.vercel.app).
+
+---
+
+#### 技術スタック Tech Stack & Tooling
+
+##### 📱 Native & Cross-Platform Apps
+![Apps](https://skillicons.dev/icons?i=kotlin,flutter,materialui,androidstudio,firebase)
+
+##### 🌐 Web Development & 3D/Motion
+![Web](https://skillicons.dev/icons?i=html,css,js,react,tailwind,threejs,figma)
+
+##### 🤖 AI Automation & Bots
+![AI & Automation](https://skillicons.dev/icons?i=py,js,nodejs,fastapi,git)
+
+##### ☁️ Cloud, Backend & Hosting
+![Cloud & DevOps](https://skillicons.dev/icons?i=firebase,vercel,netlify,github,vscode)
+
+---
+
+#### 公開プロジェクト Public Projects
+
+> Full list open sourced at https://github.com/mudassir131-dev?tab=repositories
+
+| Android & Mobile | Modern Web Experience | Cloud & AI Systems |
+| :---: | :---: | :---: |
+| **Material 3 Expressive Apps**<br/>`Kotlin` • `Jetpack Compose` • `Room DB` | **Ultra-Smooth Interactive Web**<br/>`React` • `Tailwind` • `Lenis` • `GLTF` | **Automated Pipelines & Bots**<br/>`Python` • `RAG` • `Telegram Bot` • `Firebase` |
+
+---
+
+#### 注目のプロジェクト Highlights
+
+| Projects | Stars | Forks |
+| :--- | :--- | :--- |
+| [🎵 Nocturne](https://github.com/mudassir131-dev/nocturne): Open-source YouTube Music streaming app for Android featuring Material 3 Expressive UI, background playback, offline caching & clean MVVM architecture. | ![Stars](https://img.shields.io/github/stars/mudassir131-dev/nocturne?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/mudassir131-dev/nocturne?style=flat-square&labelColor=343b41) |
+| [🛍️ Valley-Luxe](https://github.com/mudassir131-dev/Valley-Luxe): Ultra-premium Kashmiri handicrafts e-commerce platform built with React, Tailwind CSS & smooth motion animations. | ![Stars](https://img.shields.io/github/stars/mudassir131-dev/Valley-Luxe?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/mudassir131-dev/Valley-Luxe?style=flat-square&labelColor=343b41) |
+| [🌐 Portfolio & Labs](https://mlabs-five.vercel.app): Personal interactive developer portfolio and experimental playground showcasing web animations, 3D assets, and digital products. | ![Status](https://img.shields.io/badge/Live-Demo-7C3AED?style=flat-square) | ![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=flat-square&logo=vercel) |
+
+---
+
+#### 連絡先 Connect with Me
+
+<p align="left">
+  <a href="https://mlabs-five.vercel.app"><img src="https://img.shields.io/badge/Portfolio-mlabs--five-5B21B6?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="mailto:touseefparay7@gmail.com"><img src="https://img.shields.io/badge/Email-touseefparay7%40gmail.com-6D28D9?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/mudassir131-dev"><img src="https://img.shields.io/badge/GitHub-mudassir131--dev-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/mudasir-ahmad-paray"><img src="https://img.shields.io/badge/LinkedIn-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.instagram.com/mud4sssir7/"><img src="https://img.shields.io/badge/Instagram-mud4sssir7-E1306C?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+</p>
