@@ -27,16 +27,16 @@
 
 <p align="left">
   <a href="https://developer.android.com/jetpack/compose" target="_blank" rel="noreferrer">
-    <img src="./icons/compose.svg" width="40" height="40" alt="Jetpack Compose" />
+    <img src="./icons/compose.svg" width="48" height="48" alt="Jetpack Compose" />
   </a>
   <a href="https://m3.material.io/" target="_blank" rel="noreferrer">
-    <img src="./icons/material3.svg" width="40" height="40" alt="Material 3" />
+    <img src="./icons/material3.svg" width="48" height="48" alt="Material 3" />
   </a>
   <a href="https://jitpack.io/" target="_blank" rel="noreferrer">
-    <img src="./icons/jitpack.svg" width="40" height="40" alt="JitPack" />
+    <img src="./icons/jitpack.svg" width="48" height="48" alt="JitPack" />
   </a>
   <a href="https://laragon.org/" target="_blank" rel="noreferrer">
-    <img src="./icons/laragon.svg" width="40" height="40" alt="Laragon" />
+    <img src="./icons/laragon.svg" width="48" height="48" alt="Laragon" />
   </a>
 </p>
 
@@ -66,18 +66,18 @@
 
 <p align="left">
   <a href="https://github.com/mudassir131-dev" target="_blank" rel="noreferrer">
-    <img src="./icons/github.svg" width="40" height="40" alt="GitHub" />
+    <img src="./icons/github.svg" width="48" height="48" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/mudasir-ahmad7" target="_blank" rel="noreferrer">
-    <img src="./icons/linkedin.svg" width="40" height="40" alt="LinkedIn" />
+    <img src="./icons/linkedin.svg" width="48" height="48" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/mud4sssir7/" target="_blank" rel="noreferrer">
-    <img src="./icons/leetcode.svg" width="40" height="40" alt="LeetCode" />
+    <img src="./icons/leetcode.svg" width="48" height="48" alt="LeetCode" />
   </a>
   <a href="https://www.instagram.com/mud4sssir7/" target="_blank" rel="noreferrer">
-    <img src="./icons/instagram.svg" width="40" height="40" alt="Instagram" />
+    <img src="./icons/instagram.svg" width="48" height="48" alt="Instagram" />
   </a>
   <a href="https://portfolioooooss.vercel.app" target="_blank" rel="noreferrer">
-    <img src="./icons/portfolio.svg" width="40" height="40" alt="Portfolio" />
+    <img src="./icons/portfolio.svg" width="48" height="48" alt="Portfolio" />
   </a>
 </p>
