@@ -1,4 +1,4 @@
-#### こんにちは Hello ⚡
+#### مَرْحَبَاً بِكُمْ • Hello ⚡
 
 <p align="center">
   <picture>
@@ -15,26 +15,34 @@
 </p>
 
 > [!TIP]  
-> Hi, I'm **Mudasir** — an Android & Full-Stack Engineer passionate about building modern, high-performance mobile apps, interactive web experiences, and AI automation systems. Explore my portfolio at [posrtfoliooooos.vercel.app](https://posrtfoliooooos.vercel.app).
+> Hi, I'm **Mudasir** — an Android & Full-Stack Engineer passionate about building modern, high-performance mobile apps, interactive web experiences, and AI automation systems. Explore my portfolio at [portfolioooooss.vercel.app](https://portfolioooooss.vercel.app).
 
 ---
 
-#### 使用している言語とフレームワーク Languages / Frameworks I use
+#### لُغَاتُ البَرْمَجَةِ وَأُطُرُ العَمَلِ • Languages / Frameworks I use
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=c,cpp,rust,py,kotlin,flutter,laravel,mysql,html,css,js,react,tailwind,materialui,threejs,nodejs,fastapi,firebase,androidstudio,vscode,git,github,vercel,netlify&perline=12" alt="Languages / Frameworks" />
 </p>
 
 <p align="left">
-  <a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" /></a>
-  <a href="https://m3.material.io/"><img src="https://img.shields.io/badge/Material_3-6750A4?style=flat-square&logo=materialdesign&logoColor=white" alt="Material 3" /></a>
-  <a href="https://jitpack.io/"><img src="https://img.shields.io/badge/JitPack-2B2B2B?style=flat-square&logo=jitpack&logoColor=2ecc71" alt="JitPack" /></a>
-  <a href="https://laragon.org/"><img src="https://img.shields.io/badge/Laragon-0E83CD?style=flat-square&logo=laragon&logoColor=white" alt="Laragon" /></a>
+  <a href="https://developer.android.com/jetpack/compose" target="_blank" rel="noreferrer">
+    <img src="./icons/compose.svg" width="40" height="40" alt="Jetpack Compose" />
+  </a>
+  <a href="https://m3.material.io/" target="_blank" rel="noreferrer">
+    <img src="./icons/material3.svg" width="40" height="40" alt="Material 3" />
+  </a>
+  <a href="https://jitpack.io/" target="_blank" rel="noreferrer">
+    <img src="./icons/jitpack.svg" width="40" height="40" alt="JitPack" />
+  </a>
+  <a href="https://laragon.org/" target="_blank" rel="noreferrer">
+    <img src="./icons/laragon.svg" width="40" height="40" alt="Laragon" />
+  </a>
 </p>
 
 ---
 
-#### 公開プロジェクト Public Projects
+#### المَشَارِيعُ العَامَّةُ • Public Projects
 
 > Full list open sourced at https://github.com/mudassir131-dev?tab=repositories
 
@@ -44,17 +52,17 @@
 
 ---
 
-#### 注目のプロジェクト Highlights
+#### أَبْرَزُ المَشَارِيعِ • Highlights
 
 | Projects | Stars | Forks |
 | :--- | :--- | :--- |
 | [🎵 Nocturne](https://github.com/mudassir131-dev/nocturne): Open-source YouTube Music streaming app for Android featuring Material 3 Expressive UI, background playback, offline caching & clean MVVM architecture. | ![Stars](https://img.shields.io/github/stars/mudassir131-dev/nocturne?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/mudassir131-dev/nocturne?style=flat-square&labelColor=343b41) |
 | [🛍️ Valley-Luxe](https://github.com/mudassir131-dev/Valley-Luxe): Ultra-premium Kashmiri handicrafts e-commerce platform built with React, Tailwind CSS & smooth motion animations. | ![Stars](https://img.shields.io/github/stars/mudassir131-dev/Valley-Luxe?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/mudassir131-dev/Valley-Luxe?style=flat-square&labelColor=343b41) |
-| [🌐 Portfolio & Labs](https://posrtfoliooooos.vercel.app): Personal interactive developer portfolio and experimental playground showcasing web animations, 3D assets, and digital products. | ![Status](https://img.shields.io/badge/Live-Demo-7C3AED?style=flat-square) | ![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=flat-square&logo=vercel) |
+| [🌐 Portfolio & Labs](https://portfolioooooss.vercel.app): Personal interactive developer portfolio and experimental playground showcasing web animations, 3D assets, and digital products. | ![Status](https://img.shields.io/badge/Live-Demo-7C3AED?style=flat-square) | ![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?style=flat-square&logo=vercel) |
 
 ---
 
-#### 連絡先 Connect with Me
+#### تَوَاصَلْ مَعِي • Connect with Me
 
 <p align="left">
   <a href="https://github.com/mudassir131-dev" target="_blank" rel="noreferrer">
@@ -69,7 +77,7 @@
   <a href="https://www.instagram.com/mud4sssir7/" target="_blank" rel="noreferrer">
     <img src="./icons/instagram.svg" width="40" height="40" alt="Instagram" />
   </a>
-  <a href="https://posrtfoliooooos.vercel.app" target="_blank" rel="noreferrer">
+  <a href="https://portfolioooooss.vercel.app" target="_blank" rel="noreferrer">
     <img src="./icons/portfolio.svg" width="40" height="40" alt="Portfolio" />
   </a>
 </p>
