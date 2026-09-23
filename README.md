@@ -21,7 +21,16 @@
 
 #### 使用している言語とフレームワーク Languages / Frameworks I use
 
-![Languages / Frameworks](https://skillicons.dev/icons?i=kotlin,flutter,materialui,androidstudio,firebase,html,css,js,react,tailwind,threejs,py,nodejs,fastapi,vercel,netlify,git,github,vscode)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,py,kotlin,flutter,laravel,mysql,html,css,js,react,tailwind,materialui,threejs,nodejs,fastapi,firebase,androidstudio,vscode,git,github,vercel,netlify&perline=12" alt="Languages / Frameworks" />
+</p>
+
+<p align="left">
+  <a href="https://developer.android.com/jetpack/compose"><img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" /></a>
+  <a href="https://m3.material.io/"><img src="https://img.shields.io/badge/Material_3-6750A4?style=flat-square&logo=materialdesign&logoColor=white" alt="Material 3" /></a>
+  <a href="https://jitpack.io/"><img src="https://img.shields.io/badge/JitPack-2B2B2B?style=flat-square&logo=jitpack&logoColor=2ecc71" alt="JitPack" /></a>
+  <a href="https://laragon.org/"><img src="https://img.shields.io/badge/Laragon-0E83CD?style=flat-square&logo=laragon&logoColor=white" alt="Laragon" /></a>
+</p>
 
 ---
 
