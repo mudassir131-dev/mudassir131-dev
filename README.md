@@ -57,8 +57,19 @@
 #### 連絡先 Connect with Me
 
 <p align="left">
-  <a href="https://posrtfoliooooos.vercel.app"><img src="https://img.shields.io/badge/Portfolio-posrtfoliooooos-5B21B6?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://github.com/mudassir131-dev"><img src="https://img.shields.io/badge/GitHub-mudassir131--dev-4C1D95?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/mudasir-ahmad7"><img src="https://img.shields.io/badge/LinkedIn-Connect-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.instagram.com/mud4sssir7/"><img src="https://img.shields.io/badge/Instagram-mud4sssir7-E1306C?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://github.com/mudassir131-dev" target="_blank" rel="noreferrer">
+    <img src="./icons/github.svg" width="40" height="40" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/mudasir-ahmad7" target="_blank" rel="noreferrer">
+    <img src="./icons/linkedin.svg" width="40" height="40" alt="LinkedIn" />
+  </a>
+  <a href="https://leetcode.com/u/mud4sssir7/" target="_blank" rel="noreferrer">
+    <img src="./icons/leetcode.svg" width="40" height="40" alt="LeetCode" />
+  </a>
+  <a href="https://www.instagram.com/mud4sssir7/" target="_blank" rel="noreferrer">
+    <img src="./icons/instagram.svg" width="40" height="40" alt="Instagram" />
+  </a>
+  <a href="https://posrtfoliooooos.vercel.app" target="_blank" rel="noreferrer">
+    <img src="./icons/portfolio.svg" width="40" height="40" alt="Portfolio" />
+  </a>
 </p>
