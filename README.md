@@ -3,14 +3,14 @@
 <p align="center">
   <picture>
     <source 
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=github_dark_dimmed&hide_border=true&border_radius=8&card_width=495&custom_title=mudassir%20code%20stats&langs_count=8"
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=github_dark_dimmed&hide_border=true&border_radius=8&card_width=495&custom_title=Mudassir%27s%20code%20stats&langs_count=8"
       media="(prefers-color-scheme: dark)"
     />
     <source
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=catppuccin_latte&hide_border=true&border_radius=8&card_width=495&custom_title=mudassir%20code%20stats&langs_count=8"
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=catppuccin_latte&hide_border=true&border_radius=8&card_width=495&custom_title=Mudassir%27s%20code%20stats&langs_count=8"
       media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
     />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=github_dark_dimmed&hide_border=true&border_radius=8&card_width=495&custom_title=mudassir%20code%20stats&langs_count=8" alt="mudassir code stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mudassir131-dev&layout=compact&theme=github_dark_dimmed&hide_border=true&border_radius=8&card_width=495&custom_title=Mudassir%27s%20code%20stats&langs_count=8" alt="Mudassir's code stats" />
   </picture>
 </p>
 
